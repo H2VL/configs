@@ -2,9 +2,12 @@
   "name": "root",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/prettier-config"
   ],
+  "dependencies": {},
   "devDependencies": {
-    "lerna": "^6.1.0"
-  }
+    "lerna": "^6.1.0",
+    "prettier": "^2.8.0"
+  },
+  "prettier": "@vlaude/prettier-config"
 }

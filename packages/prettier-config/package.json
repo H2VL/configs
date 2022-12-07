@@ -1,26 +1,12 @@
 {
-  "name": "prettier-config",
+  "name": "@vlaude-team-dev/prettier-config",
   "version": "0.0.0",
   "description": "> TODO: description",
   "author": "Vincent Laude <vincent.laude2@gmail.com>",
-  "homepage": "https://github.com/vlaude-Team-Dev/tools#readme",
-  "license": "ISC",
-  "main": "lib/prettier-config.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vlaude-Team-Dev/tools.git"
-  },
-  "scripts": {
-    "test": "node ./__tests__/prettier-config.test.js"
-  },
-  "bugs": {
-    "url": "https://github.com/vlaude-Team-Dev/tools/issues"
+  "homepage": "https://github.com/vlaude-Team-Dev/configs#readme",
+  "license": "MIT",
+  "main": "index.json",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
