@@ -1,6 +1,6 @@
 {
   "name": "@vlaude-team-dev/semantic-release-config",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "> TODO: description",
   "author": "Vincent Laude <vincent.laude2@gmail.com>",
   "license": "MIT",
@@ -9,7 +9,6 @@
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1"
   },
-  "devDependencies": {},
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   }
