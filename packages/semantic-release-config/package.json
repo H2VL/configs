@@ -6,7 +6,8 @@
   "license": "MIT",
   "main": "index.json",
   "devDependencies": {
-    "semantic-release-npm-github-publish": "^1.5.4"
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/git": "^10.0.1"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

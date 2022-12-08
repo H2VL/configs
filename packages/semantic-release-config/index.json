@@ -1,4 +1,36 @@
 {
+  "extends": "semantic-release-npm-github-publish",
   "branches": ["main"],
-  "extends": "semantic-release-npm-github-publish"
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/changelog",
+    "@semantic-release/npm",
+    [
+      "@semantic-release/git",
+      {
+        "message": "chore(release): ${nextRelease.version} \n\n${nextRelease.notes}"
+      }
+    ],
+    "@semantic-release/github",
+    [
+      "semantic-release-discord",
+      {
+        "notifyOnSuccess": true,
+        "notifyOnFail": true,
+        "onSuccessTemplate": {
+          "username": "$package_name",
+          "content": "A new version of $package_name as been released !",
+          "embeds": [
+            {
+              "title": "$package_name $npm_package_version",
+              "url": "$repo_url",
+              "description": "$release_notes",
+              "color": 16776960
+            }
+          ]
+        }
+      }
+    ]
+  ]
 }
