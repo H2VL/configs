@@ -3,10 +3,6 @@
   "version": "1.0.1",
   "description": "> TODO: description",
   "author": "Vincent Laude <vincent.laude2@gmail.com>",
-  "homepage": "https://github.com/vlaude-Team-Dev/configs#readme",
   "license": "MIT",
-  "main": "index.json",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  }
+  "main": "index.json"
 }

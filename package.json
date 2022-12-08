@@ -2,12 +2,16 @@
   "name": "root",
   "private": true,
   "workspaces": [
-    "packages/prettier-config"
+    "packages/prettier-config",
+    "packages/semantic-release-config"
   ],
+  "scripts": {
+    "publish": "lerna publish"
+  },
   "dependencies": {},
   "devDependencies": {
     "lerna": "^6.1.0",
     "prettier": "^2.8.0"
   },
-  "prettier": "@vlaude/prettier-config"
+  "prettier": "@vlaude-team-dev/prettier-config"
 }

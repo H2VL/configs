@@ -3,5 +3,15 @@
   "useNx": true,
   "useWorkspaces": true,
   "version": "independent",
-  "npmClient": "yarn"
+  "npmClient": "yarn",
+  "command": {
+    "version": {
+      "allowBranch": "main",
+      "conventionalCommits": true,
+      "message": "chore(release): publish"
+    },
+    "publish": {
+      "registry": "https://npm.pkg.github.com"
+    }
+  }
 }
