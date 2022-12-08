@@ -5,10 +5,11 @@
   "author": "Vincent Laude <vincent.laude2@gmail.com>",
   "license": "MIT",
   "main": "index.json",
-  "devDependencies": {
+  "dependencies": {
     "@semantic-release/changelog": "^6.0.2",
     "@semantic-release/git": "^10.0.1"
   },
+  "devDependencies": {},
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   }
