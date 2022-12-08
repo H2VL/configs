@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.3](https://github.com/vlaude-Team-Dev/configs/compare/@vlaude-team-dev/semantic-release-config@0.2.2...@vlaude-team-dev/semantic-release-config@0.2.3) (2022-12-08)
+
+### Bug Fixes
+
+- **semantic-release-config:** change discord message color ([1dbb85b](https://github.com/vlaude-Team-Dev/configs/commit/1dbb85b77f0359faea82136e5b958c302b95794d))
+
 ## [0.2.2](https://github.com/vlaude-Team-Dev/configs/compare/@vlaude-team-dev/semantic-release-config@0.2.1...@vlaude-team-dev/semantic-release-config@0.2.2) (2022-12-08)
 
 ### Bug Fixes
