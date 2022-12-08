@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/vlaude-Team-Dev/configs/compare/@vlaude-team-dev/semantic-release-config@0.2.1...@vlaude-team-dev/semantic-release-config@0.2.2) (2022-12-08)
+
+### Bug Fixes
+
+- **semantic-release-config:** add missing dependency semantic-release-discord ([60c25f4](https://github.com/vlaude-Team-Dev/configs/commit/60c25f4c69ed9108be0b4fe52beeab1a6dc67fd9))
+
 ## [0.2.1](https://github.com/vlaude-Team-Dev/configs/compare/@vlaude-team-dev/semantic-release-config@0.2.0...@vlaude-team-dev/semantic-release-config@0.2.1) (2022-12-08)
 
 ### Bug Fixes
